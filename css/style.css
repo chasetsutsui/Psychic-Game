@@ -1,0 +1,14 @@
+.jumbotron{
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    color: rgba(252, 17, 17, 0.884);
+    background-color: rgb(15, 2, 20);
+}
+
+h1{
+    text-decoration: overline;
+
+}
+ h2{
+     text-decoration: underline;
+ }
