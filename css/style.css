@@ -2,7 +2,8 @@
     text-align: center;
     font-family: 'Berkshire Swash', cursive;
     color: rgba(252, 17, 17, 0.884);
-    background-color: rgb(15, 2, 20);
+    background-color: rgb(0, 0, 0);
+
 }
 
 h1{
@@ -11,4 +12,25 @@ h1{
 }
  h2{
      text-decoration: underline;
+ }
+
+ body{
+     background-image: url(https://i.stack.imgur.com/Mv83H.png);
+     color: rgba(252, 17, 17, 0.884);
+     font-family: 'Merienda One', cursive;
+   
+ }
+
+ p{
+     font-size: 20px;
+     text-align: center;
+ }
+
+ .score{
+     font-size: 30px;
+ }
+
+ img{
+     float: right;
+     clear: both;
  }

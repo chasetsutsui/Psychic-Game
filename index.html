@@ -10,6 +10,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merienda+One&display=swap" rel="stylesheet">
 
 </head>
 
@@ -19,9 +20,28 @@
         <h2>What Letter Am I Thinking Of ?</h2>
 
     </div>
-    <h3>To start the game, press any letter key.</h3>
-    <h3>Guess the correct letter within 9 tries to win the game.</h3>
-    <h3>If you dont guess correctly within 9 tries, you lose.</h3>
+    <p>To start the game, press any letter key.</p>
+    <p>Guess the correct letter within 9 tries to win the game.</p>
+    <p>If you dont guess correctly within 9 tries, you lose.</p>
+
+    <img src="images/product-image-793334840_2000x.webp" alt="crystal ball" height="290" width="290">
+
+    <div class="score">
+        Wrong Guesses: <span id="lettersGuessed"></span>
+    </div>
+    <br>
+    <div class="score">
+        Guesses Left: <span id="guessesLeft"></span>
+    </div>
+    <br>
+    <div class="score">
+        Wins: <span id="wins"></span>
+    </div>
+    <br>
+    <div class="score">
+        Losses: <span id="losses"></span>
+    </div>
+
 
     <script src="javascript/game.js"></script>
 </body>
